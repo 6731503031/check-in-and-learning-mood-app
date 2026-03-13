@@ -1,0 +1,20 @@
+AI Usage Report (Short)
+
+1) AI tools used
+- GitHub Copilot (GPT-5.3-Codex) in VS Code
+- Firebase CLI suggestions and command guidance
+
+2) What AI helped generate
+- Initial Flutter project structure and page scaffolding
+- QR scanning/upload fallback flow for web
+- Firebase integration setup templates (firebase_options, hosting config, deploy commands)
+- CRUD/repository boilerplate for check-in, finish class, and class-based query
+- README draft structure and deployment notes
+
+3) What I modified or implemented myself
+- Interpreted requirements and redesigned app flow (Home role selection: Student/Teacher)
+- Defined teacher-generated QR payload format and 10-minute QR expiry logic
+- Implemented student forms, validation rules, and mood emoji slider behavior
+- Added teacher submissions page for checking student records by class ID
+- Adjusted Firestore query behavior and app-specific UI/UX decisions
+- Tested, fixed runtime issues, and completed Firebase Hosting deployment
