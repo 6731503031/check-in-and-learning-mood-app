@@ -1,4 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- GPS location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- Camera for QR scanner -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Firebase requires internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:label="check_in_and_learning_mood_app"
         android:name="${applicationName}"

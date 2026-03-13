@@ -1,11 +1,11 @@
 {
-    "name": "check_in_and_learning_mood_app",
-    "short_name": "check_in_and_learning_mood_app",
+    "name": "Check-in & Learning Mood",
+    "short_name": "Check-in Mood",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#009688",
+    "theme_color": "#009688",
+    "description": "Student class check-in and learning mood tracking app.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
